@@ -1,87 +1,168 @@
-# Setup
 
-## Symfony 6.3 project setup
+
+  
+
+# Symfony 6.3 project setup
+
+### IDE : PhpStorm
+
+
+
+
+## Install dependencies
 ```
-# IDE
-PhpStorm
-
-# Install dependencies
 composer install
-
-# Create database
-php bin/console doctrine:database:create
-symfony make:migration
-symfony doctrine:migrations:migrate
-
-# Run server
-php -S localhost:8000 -t public/
-
-``` 
-
-## Vue 3 project setup
-
 ```
-# yarn
+  
+
+## Create database
+```
+php bin/console doctrine:database:create
+
+symfony make:migration
+
+symfony doctrine:migrations:migrate
+```
+  
+
+## Run server
+```
+php -S localhost:8000 -t public/
+```
+  
+
+
+
+  
+
+# Vue 3 project setup
+
+  
+
+
+
+## yarn
+```
 yarn
+```
+  
 
-# npm
+## npm
+```
 npm install
+```
+  
 
-# pnpm
+## pnpm
+```
 pnpm install
+```
+  
 
-# pnpm
+## pnpm
+```
 bun install
 ```
 
-### Compiles and hot-reloads for development
 
+  
+
+## Compiles and hot-reloads for development
+
+  
+
+
+
+## yarn
 ```
-# yarn
 yarn dev
+```
+  
 
-# npm
+## npm
+```
 npm run dev
+```
+  
 
-# pnpm
+## pnpm
+```
 pnpm dev
+```
+  
 
-# bun
+## bun
+```
 bun run dev
 ```
 
-### Compiles and minifies for production
+  
 
+# Compiles and minifies for production
+
+  
+
+
+
+## yarn
 ```
-# yarn
 yarn build
+```
+  
 
-# npm
+## npm
+```
 npm run build
+```
+  
 
-# pnpm
+## pnpm
+```
 pnpm build
+```
+  
 
-# bun
+## bun
+```
 bun run build
 ```
 
-### Lints and fixes files
 
+  
+
+# Lints and fixes files
+
+  
+
+
+
+## yarn
 ```
-# yarn
 yarn lint
+```
+  
 
-# npm
+## npm
+```
 npm run lint
+```
+  
 
-# pnpm
+## pnpm
+```
 pnpm lint
+```
+  
 
-# bun
+## bun
+```
 bun run lint
 ```
 
-### Customize configuration
+  
+
+# Customize configuration
+
+  
 
 See [Configuration Reference](https://vitejs.dev/config/).
