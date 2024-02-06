@@ -2,7 +2,7 @@
 
 ## Symfony 6.3 project setup
 ```
-#IDE
+# IDE
 PhpStorm
 
 # Install dependencies
