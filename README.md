@@ -6,6 +6,12 @@
 
 ### IDE : PhpStorm
 
+## Navigate to the front folder
+
+```
+cd backend
+```
+
 ## Install dependencies
 ```
 composer install
@@ -27,11 +33,19 @@ php -S localhost:8000 -t public/
 
 # Vue 3 project setup
 
+## Navigate to the front folder
+
+```
+cd front
+```
+
+## Install dependencies
+
 ```
 npm install
 ```
   
-## Compiles and hot-reloads for development
+## Run project
 
 ```
 npm run dev
